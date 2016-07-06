@@ -32,7 +32,7 @@ module Fastlane
               break
             end
         end
-
+        
         response = conn.put do |req|
           req.url "/api/2/apps/#{public_identifier}/app_versions/#{@version_id}"
           req.body = {  :file => Faraday::UploadIO.new(dsym_path, 'application/octet-stream') }

@@ -12,15 +12,7 @@ fastlane add_plugin upload_symbols_to_hockey
 
 ## About upload_symbols_to_hockey
 
-Upload dSYM symbolication files to Hockey
-
-**Note to author:** Add a more detailed description about this plugin here. If your plugin contains multiple actions, make sure to mention them here.
-
-## Example
-
-Check out the [example `Fastfile`](fastlane/Fastfile) to see how to use this plugin. Try it by cloning the repo, running `fastlane install_plugins` and `bundle exec fastlane test`. 
-
-**Note to author:** Please set up a sample project to make it easy for users to explore what your plugin does. Provide everything that is necessary to try out the plugin in this project (including a sample Xcode/Android project if necessary)
+This Fastlane plugin will upload a dSYM dSYM symbolication file to Hockey for the build number you specify.
 
 ## Run tests for this plugin
 
@@ -30,7 +22,7 @@ To run both the tests, and code style validation, run
 rake
 ```
 
-To automatically fix many of the styling issues, use 
+To automatically fix many of the styling issues, use
 ```
 rubocop -a
 ```
