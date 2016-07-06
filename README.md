@@ -2,6 +2,8 @@
 
 [![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-upload_symbols_to_hockey)
 
+[![Gem Version](https://badge.fury.io/rb/fastlane-plugin-upload_symbols_to_hockey.svg)](https://badge.fury.io/rb/fastlane-plugin-upload_symbols_to_hockey)
+
 ## Getting Started
 
 This project is a [fastlane](https://github.com/fastlane/fastlane) plugin. To get started with `fastlane-plugin-upload_symbols_to_hockey`, add it to your project by running:
