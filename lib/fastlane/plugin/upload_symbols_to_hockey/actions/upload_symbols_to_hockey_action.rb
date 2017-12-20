@@ -35,7 +35,7 @@ module Fastlane
         
         response = conn.put do |req|
           req.url "/api/2/apps/#{public_identifier}/app_versions/#{@version_id}"
-          req.body = {  :file => Faraday::UploadIO.new(dsym_path, 'application/octet-stream') }
+          req.body = {  :dsym => Faraday::UploadIO.new(dsym_path, 'application/octet-stream') }
         end
 
         if response.status == 201
