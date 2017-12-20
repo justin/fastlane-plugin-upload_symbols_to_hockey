@@ -14,7 +14,7 @@ fastlane add_plugin upload_symbols_to_hockey
 
 ## About upload_symbols_to_hockey
 
-This Fastlane plugin will upload a dSYM dSYM symbolication file to Hockey for the build number you specify.
+This Fastlane plugin will upload a dSYM file to Hockey for the build number you specify.
 
 ## Run tests for this plugin
 
